@@ -1,9 +1,5 @@
-This program generates simple Java programs with lots of if-else, switch statements.
-Parameters:
-<Class Name>
-<Number of Variables>
-<Maximum number of methods>
-<Minimum number of LOC>
-<Probability - to create nested loop and others>
-<Maximum nested 'if' statements>
-<Maximum allowed method calls from a single method>
+
+
+Library files are removed from this project because of huge size.
+The link of all library files is set up and you need to download the lib files and add them to lib folder
+https://www.dropbox.com/s/gsmb6oa7mounjte/T%20Verifier%20Lib.zip
