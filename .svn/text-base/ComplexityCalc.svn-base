@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="ProgGen" type="Project" date="2010-08-09" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Cycle name="edu.uta.cse.proggen.statements et al" nodes="3" diameter="2">
+      <Package>edu.uta.cse.proggen.statements</Package>
+      <Package>edu.uta.cse.proggen.expressions</Package>
+      <Package>edu.uta.cse.proggen.start</Package>
+   </Cycle>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "16" avg = "0.8" stddev = "0.4" max = "1">
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="0"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "40" avg = "1.905" stddev = "2.266" max = "10">
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="10"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="5"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="4"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="3"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="3"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="0"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "13" avg = "0.65" stddev = "2.242" max = "10">
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="10"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="3"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="0"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "21" avg = "3.5" stddev = "1.803" max = "6">
+         <Value name="edu.uta.cse.proggen.expressions" package ="edu.uta.cse.proggen.expressions" value ="6"/>
+         <Value name="edu.uta.cse.proggen.statements" package ="edu.uta.cse.proggen.statements" value ="6"/>
+         <Value name="edu.uta.cse.proggen.operators" package ="edu.uta.cse.proggen.operators" value ="3"/>
+         <Value name="com.accenture.lab.carfast.test" package ="com.accenture.lab.carfast.test" value ="2"/>
+         <Value name="edu.uta.cse.proggen.nodes" package ="edu.uta.cse.proggen.nodes" value ="2"/>
+         <Value name="edu.uta.cse.proggen.start" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="(default package)" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "65116" avg = "401.951" stddev = "231.416" max = "727">
+         <Value name="meth_1" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="727"/>
+         <Value name="meth_1" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="679"/>
+         <Value name="meth_2" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="614"/>
+         <Value name="meth_12" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="610"/>
+         <Value name="meth_3" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="602"/>
+         <Value name="meth_53" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="602"/>
+         <Value name="meth_46" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="600"/>
+         <Value name="meth_2" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="597"/>
+         <Value name="meth_4" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="587"/>
+         <Value name="meth_39" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="586"/>
+         <Value name="meth_13" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="585"/>
+         <Value name="meth_23" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="585"/>
+         <Value name="meth_78" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="584"/>
+         <Value name="meth_95" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="578"/>
+         <Value name="meth_19" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="577"/>
+         <Value name="meth_97" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="577"/>
+         <Value name="meth_52" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="573"/>
+         <Value name="meth_14" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="572"/>
+         <Value name="meth_29" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="572"/>
+         <Value name="meth_7" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="571"/>
+         <Value name="meth_13" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="570"/>
+         <Value name="meth_9" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="568"/>
+         <Value name="meth_79" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="567"/>
+         <Value name="meth_31" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="564"/>
+         <Value name="meth_92" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="564"/>
+         <Value name="meth_5" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="563"/>
+         <Value name="meth_76" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="562"/>
+         <Value name="meth_6" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="559"/>
+         <Value name="meth_84" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="558"/>
+         <Value name="meth_8" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="558"/>
+         <Value name="meth_33" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="557"/>
+         <Value name="meth_34" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="557"/>
+         <Value name="meth_48" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="557"/>
+         <Value name="meth_7" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="556"/>
+         <Value name="meth_80" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="556"/>
+         <Value name="meth_30" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="555"/>
+         <Value name="meth_38" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="555"/>
+         <Value name="meth_27" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="554"/>
+         <Value name="meth_3" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="553"/>
+         <Value name="meth_10" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="552"/>
+         <Value name="meth_56" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="551"/>
+         <Value name="meth_90" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="551"/>
+         <Value name="meth_32" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="550"/>
+         <Value name="meth_57" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="550"/>
+         <Value name="meth_16" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="549"/>
+         <Value name="meth_83" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="549"/>
+         <Value name="meth_19" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="548"/>
+         <Value name="meth_24" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="547"/>
+         <Value name="meth_63" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="547"/>
+         <Value name="meth_73" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="547"/>
+         <Value name="meth_20" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="546"/>
+         <Value name="meth_14" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="546"/>
+         <Value name="meth_22" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="544"/>
+         <Value name="meth_64" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="544"/>
+         <Value name="meth_99" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="543"/>
+         <Value name="meth_6" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="542"/>
+         <Value name="meth_16" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="542"/>
+         <Value name="meth_18" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="541"/>
+         <Value name="meth_4" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="541"/>
+         <Value name="meth_25" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="540"/>
+         <Value name="meth_60" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="540"/>
+         <Value name="meth_58" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="538"/>
+         <Value name="meth_44" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="537"/>
+         <Value name="meth_81" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="537"/>
+         <Value name="meth_26" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="536"/>
+         <Value name="meth_12" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="535"/>
+         <Value name="meth_28" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="535"/>
+         <Value name="meth_85" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="535"/>
+         <Value name="meth_43" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="533"/>
+         <Value name="meth_96" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="533"/>
+         <Value name="meth_94" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="531"/>
+         <Value name="meth_75" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="529"/>
+         <Value name="meth_36" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="528"/>
+         <Value name="meth_18" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="527"/>
+         <Value name="meth_21" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="527"/>
+         <Value name="meth_74" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="525"/>
+         <Value name="meth_72" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="524"/>
+         <Value name="meth_77" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="524"/>
+         <Value name="meth_61" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="522"/>
+         <Value name="meth_70" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="522"/>
+         <Value name="meth_20" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="521"/>
+         <Value name="meth_86" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="520"/>
+         <Value name="meth_68" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="519"/>
+         <Value name="meth_41" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="515"/>
+         <Value name="meth_49" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="515"/>
+         <Value name="meth_35" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="509"/>
+         <Value name="meth_42" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="509"/>
+         <Value name="meth_45" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="508"/>
+         <Value name="meth_59" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="505"/>
+         <Value name="meth_8" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="504"/>
+         <Value name="meth_11" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="503"/>
+         <Value name="meth_15" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="503"/>
+         <Value name="meth_17" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="503"/>
+         <Value name="meth_67" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="503"/>
+         <Value name="meth_87" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="503"/>
+         <Value name="meth_9" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="502"/>
+         <Value name="meth_62" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="502"/>
+         <Value name="meth_66" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="501"/>
+         <Value name="meth_98" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="500"/>
+         <Value name="meth_17" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="496"/>
+         <Value name="meth_5" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="496"/>
+         <Value name="meth_40" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="496"/>
+         <Value name="meth_65" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="496"/>
+         <Value name="meth_89" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="495"/>
+         <Value name="meth_82" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="493"/>
+         <Value name="meth_55" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="490"/>
+         <Value name="meth_93" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="490"/>
+         <Value name="meth_11" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="489"/>
+         <Value name="meth_37" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="487"/>
+         <Value name="meth_15" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="485"/>
+         <Value name="meth_51" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="481"/>
+         <Value name="meth_91" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="477"/>
+         <Value name="meth_50" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="476"/>
+         <Value name="meth_10" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="472"/>
+         <Value name="meth_54" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="469"/>
+         <Value name="meth_88" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="468"/>
+         <Value name="meth_47" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="463"/>
+         <Value name="meth_69" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="455"/>
+         <Value name="meth_71" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="447"/>
+         <Value name="meth_2" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="324"/>
+         <Value name="meth_5" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="287"/>
+         <Value name="meth_1" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="286"/>
+         <Value name="meth_1" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="284"/>
+         <Value name="meth_3" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="270"/>
+         <Value name="meth_1" source ="Test.java" package ="(default package)" value ="258"/>
+         <Value name="meth_1" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="256"/>
+         <Value name="meth_4" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="240"/>
+         <Value name="meth_2" source ="Test.java" package ="(default package)" value ="213"/>
+         <Value name="meth_2" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="207"/>
+         <Value name="meth_3" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="205"/>
+         <Value name="meth_3" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="201"/>
+         <Value name="meth_2" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="191"/>
+         <Value name="meth_3" source ="Test.java" package ="(default package)" value ="191"/>
+         <Value name="meth_1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="183"/>
+         <Value name="meth_2" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="152"/>
+         <Value name="meth_45" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="152"/>
+         <Value name="meth_35" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="149"/>
+         <Value name="meth_12" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="147"/>
+         <Value name="meth_37" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="141"/>
+         <Value name="meth_51" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="141"/>
+         <Value name="meth_18" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="137"/>
+         <Value name="meth_27" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="137"/>
+         <Value name="meth_41" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="136"/>
+         <Value name="meth_62" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="135"/>
+         <Value name="meth_89" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="135"/>
+         <Value name="meth_11" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="134"/>
+         <Value name="meth_14" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="134"/>
+         <Value name="meth_6" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="134"/>
+         <Value name="meth_5" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="133"/>
+         <Value name="meth_64" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="133"/>
+         <Value name="meth_39" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="132"/>
+         <Value name="meth_33" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="131"/>
+         <Value name="meth_40" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="130"/>
+         <Value name="meth_52" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="130"/>
+         <Value name="meth_72" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="129"/>
+         <Value name="meth_73" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="129"/>
+         <Value name="meth_88" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="128"/>
+         <Value name="meth_53" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="127"/>
+         <Value name="meth_9" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="127"/>
+         <Value name="meth_31" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="125"/>
+         <Value name="meth_34" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="125"/>
+         <Value name="meth_42" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="125"/>
+         <Value name="meth_56" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="125"/>
+         <Value name="meth_65" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="125"/>
+         <Value name="meth_68" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="124"/>
+         <Value name="meth_8" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="124"/>
+         <Value name="meth_24" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="123"/>
+         <Value name="meth_47" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="123"/>
+         <Value name="meth_50" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="123"/>
+         <Value name="meth_36" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="120"/>
+         <Value name="meth_69" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="120"/>
+         <Value name="meth_80" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="120"/>
+         <Value name="meth_29" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="119"/>
+         <Value name="meth_7" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="119"/>
+         <Value name="meth_25" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="118"/>
+         <Value name="meth_3" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="118"/>
+         <Value name="meth_57" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="117"/>
+         <Value name="meth_16" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="116"/>
+         <Value name="meth_58" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="116"/>
+         <Value name="meth_70" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="116"/>
+         <Value name="meth_77" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="116"/>
+         <Value name="meth_20" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="115"/>
+         <Value name="meth_32" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="115"/>
+         <Value name="meth_87" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="115"/>
+         <Value name="meth_79" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="114"/>
+         <Value name="meth_82" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="114"/>
+         <Value name="meth_17" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="111"/>
+         <Value name="meth_48" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="111"/>
+         <Value name="meth_92" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="110"/>
+         <Value name="meth_61" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="109"/>
+         <Value name="meth_22" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="108"/>
+         <Value name="meth_84" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="108"/>
+         <Value name="meth_19" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="107"/>
+         <Value name="meth_76" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="107"/>
+         <Value name="meth_85" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="107"/>
+         <Value name="meth_44" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="106"/>
+         <Value name="meth_30" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="105"/>
+         <Value name="meth_63" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="105"/>
+         <Value name="meth_81" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="105"/>
+         <Value name="meth_83" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="105"/>
+         <Value name="meth_59" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="104"/>
+         <Value name="meth_67" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="104"/>
+         <Value name="meth_13" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="103"/>
+         <Value name="meth_60" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="102"/>
+         <Value name="meth_54" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="101"/>
+         <Value name="meth_38" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="99"/>
+         <Value name="meth_43" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="99"/>
+         <Value name="meth_74" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="99"/>
+         <Value name="meth_21" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="98"/>
+         <Value name="meth_55" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="98"/>
+         <Value name="meth_10" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="97"/>
+         <Value name="meth_75" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="97"/>
+         <Value name="meth_78" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="97"/>
+         <Value name="meth_66" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="96"/>
+         <Value name="meth_91" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="96"/>
+         <Value name="meth_93" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="96"/>
+         <Value name="meth_4" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="93"/>
+         <Value name="meth_28" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="92"/>
+         <Value name="meth_15" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="90"/>
+         <Value name="meth_26" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="90"/>
+         <Value name="meth_23" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="88"/>
+         <Value name="meth_46" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="84"/>
+         <Value name="meth_90" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="79"/>
+         <Value name="meth_86" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="77"/>
+         <Value name="meth_49" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="74"/>
+         <Value name="meth_71" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="74"/>
+         <Value name="main" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="43"/>
+         <Value name="createMethod" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="32"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="31"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="20"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="15"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="13"/>
+         <Value name="sortMethParam" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="11"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="10"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="10"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="9"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="9"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="8"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="7"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="6"/>
+         <Value name="toString" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="6"/>
+         <Value name="toString" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="5"/>
+         <Value name="get" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="4"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="4"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="3"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="3"/>
+         <Value name="getVariable" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="3"/>
+         <Value name="toString" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="toString" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="toString" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="toString" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="toString" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="toString" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="toString" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="getVariable" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="toString" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="0"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "34" avg = "1.619" stddev = "0.653" max = "2">
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="2"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="2"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="2"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="1"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "6.494" stddev = "3.618" max = "19" maxinrange="false">
+         <Value name="meth_71" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_54" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="15" inrange="false"/>
+         <Value name="meth_46" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="13" inrange="false"/>
+         <Value name="meth_8" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="13" inrange="false"/>
+         <Value name="meth_48" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="13" inrange="false"/>
+         <Value name="meth_55" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="13" inrange="false"/>
+         <Value name="meth_93" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="13" inrange="false"/>
+         <Value name="meth_51" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="12" inrange="false"/>
+         <Value name="meth_73" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="12" inrange="false"/>
+         <Value name="meth_76" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="12" inrange="false"/>
+         <Value name="meth_10" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_14" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_15" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_21" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_22" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_25" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_37" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_50" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_66" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_85" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_99" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="(default package)" value ="11" inrange="false"/>
+         <Value name="meth_2" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="11" inrange="false"/>
+         <Value name="meth_67" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_17" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_1" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_2" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_13" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_17" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_35" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_59" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_62" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_7" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_80" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_88" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_13" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_15" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_26" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_30" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_90" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_15" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_7" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_9" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_11" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_16" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_36" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_4" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_65" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_68" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_82" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_95" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_98" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="9" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_38" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_53" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_75" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_91" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_93" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_11" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_16" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_18" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_4" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_20" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_23" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_2" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_32" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_38" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_39" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_40" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_45" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_52" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_61" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_69" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_74" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_75" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_77" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_86" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_87" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_89" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_8" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_91" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_92" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_94" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="8" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="8" inrange="false"/>
+         <Value name="meth_12" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_21" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_22" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_32" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_42" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_49" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_52" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_54" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_55" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_57" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_66" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_6" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_71" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_78" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_12" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_3" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_5" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_10" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_14" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_18" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_26" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_31" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_34" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_41" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_43" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_47" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_49" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_56" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_57" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_58" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_5" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_60" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_64" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_67" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_6" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_70" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_72" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_78" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_79" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_9" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="7" inrange="false"/>
+         <Value name="meth_3" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="7" inrange="false"/>
+         <Value name="meth_4" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="7" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="7" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_14" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_19" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_31" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_35" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_39" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_48" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_4" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_50" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_58" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_73" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_77" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_92" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_13" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_19" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_20" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_6" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_12" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_1" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_28" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_33" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_3" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_42" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_44" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_63" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_81" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_90" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_96" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_97" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="6" inrange="false"/>
+         <Value name="meth_3" source ="Test.java" package ="(default package)" value ="6" inrange="false"/>
+         <Value name="meth_10" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_16" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_20" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_23" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_25" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_27" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_28" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_29" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_43" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_44" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_59" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_5" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_63" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_65" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_72" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_74" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_76" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_82" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_83" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_85" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_86" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_87" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_9" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_19" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_24" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_27" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_29" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_30" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_83" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_84" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="5"/>
+         <Value name="meth_2" source ="Test.java" package ="(default package)" value ="5"/>
+         <Value name="meth_1" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="5"/>
+         <Value name="meth_3" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_18" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_24" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_33" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_36" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_3" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_56" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_60" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_61" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_62" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_69" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_79" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_7" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_81" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_84" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_88" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_8" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_46" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_53" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="4"/>
+         <Value name="meth_11" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_17" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_2" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_34" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_37" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_40" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_41" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_51" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_68" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_80" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="meth_3" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="meth_1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="2"/>
+         <Value name="meth_45" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="2"/>
+         <Value name="meth_47" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="2"/>
+         <Value name="meth_64" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="2"/>
+         <Value name="meth_70" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="2"/>
+         <Value name="meth_89" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="2"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="get" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="createMethod" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="main" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="sortMethParam" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="meth_5" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="toString" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="1"/>
+         <Value name="toString" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="toString" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="toString" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="toString" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="toString" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="getVariable" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="getVariable" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="toString" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="toString" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="toString" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="toString" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1.65" stddev = "0.477" max = "2">
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="2"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="2"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="2"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="1"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="6"/>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "5.167" stddev = "4.74" max = "14">
+         <Value name="edu.uta.cse.proggen.nodes" package ="edu.uta.cse.proggen.nodes" value ="14"/>
+         <Value name="edu.uta.cse.proggen.start" package ="edu.uta.cse.proggen.start" value ="8"/>
+         <Value name="edu.uta.cse.proggen.expressions" package ="edu.uta.cse.proggen.expressions" value ="5"/>
+         <Value name="edu.uta.cse.proggen.operators" package ="edu.uta.cse.proggen.operators" value ="3"/>
+         <Value name="edu.uta.cse.proggen.statements" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="com.accenture.lab.carfast.test" package ="com.accenture.lab.carfast.test" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="com.accenture.lab.carfast.test" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="edu.uta.cse.proggen.expressions" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="edu.uta.cse.proggen.nodes" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="edu.uta.cse.proggen.operators" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="edu.uta.cse.proggen.start" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="edu.uta.cse.proggen.statements" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "84.241" stddev = "48.216" max = "136" maxinrange="false">
+         <Value name="meth_68" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="136" inrange="false"/>
+         <Value name="meth_98" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="133" inrange="false"/>
+         <Value name="meth_39" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="132" inrange="false"/>
+         <Value name="meth_14" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="128" inrange="false"/>
+         <Value name="meth_7" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="128" inrange="false"/>
+         <Value name="meth_43" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="128" inrange="false"/>
+         <Value name="meth_38" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="127" inrange="false"/>
+         <Value name="meth_2" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="126" inrange="false"/>
+         <Value name="meth_11" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="125" inrange="false"/>
+         <Value name="meth_97" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="125" inrange="false"/>
+         <Value name="meth_13" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="124" inrange="false"/>
+         <Value name="meth_2" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="124" inrange="false"/>
+         <Value name="meth_92" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="124" inrange="false"/>
+         <Value name="meth_35" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="123" inrange="false"/>
+         <Value name="meth_80" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="123" inrange="false"/>
+         <Value name="meth_82" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="123" inrange="false"/>
+         <Value name="meth_8" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="123" inrange="false"/>
+         <Value name="meth_96" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="123" inrange="false"/>
+         <Value name="meth_60" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="122" inrange="false"/>
+         <Value name="meth_41" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="121" inrange="false"/>
+         <Value name="meth_17" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="120" inrange="false"/>
+         <Value name="meth_10" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="120" inrange="false"/>
+         <Value name="meth_70" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="120" inrange="false"/>
+         <Value name="meth_59" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="119" inrange="false"/>
+         <Value name="meth_7" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="119" inrange="false"/>
+         <Value name="meth_84" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="119" inrange="false"/>
+         <Value name="meth_49" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="118" inrange="false"/>
+         <Value name="meth_50" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="118" inrange="false"/>
+         <Value name="meth_12" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="117" inrange="false"/>
+         <Value name="meth_25" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="117" inrange="false"/>
+         <Value name="meth_30" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="117" inrange="false"/>
+         <Value name="meth_48" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="117" inrange="false"/>
+         <Value name="meth_94" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="117" inrange="false"/>
+         <Value name="meth_22" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="116" inrange="false"/>
+         <Value name="meth_3" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="116" inrange="false"/>
+         <Value name="meth_40" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="116" inrange="false"/>
+         <Value name="meth_12" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_14" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_24" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_72" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_77" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_81" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_85" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_95" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_9" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="115" inrange="false"/>
+         <Value name="meth_1" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="114" inrange="false"/>
+         <Value name="meth_26" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="114" inrange="false"/>
+         <Value name="meth_89" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="114" inrange="false"/>
+         <Value name="meth_5" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="113" inrange="false"/>
+         <Value name="meth_42" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="113" inrange="false"/>
+         <Value name="meth_52" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="113" inrange="false"/>
+         <Value name="meth_5" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="113" inrange="false"/>
+         <Value name="meth_66" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="113" inrange="false"/>
+         <Value name="meth_76" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="113" inrange="false"/>
+         <Value name="meth_99" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="113" inrange="false"/>
+         <Value name="meth_16" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_16" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_34" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_37" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_57" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_61" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_69" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_73" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_79" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="112" inrange="false"/>
+         <Value name="meth_10" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="111" inrange="false"/>
+         <Value name="meth_15" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="111" inrange="false"/>
+         <Value name="meth_6" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="111" inrange="false"/>
+         <Value name="meth_74" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="111" inrange="false"/>
+         <Value name="meth_8" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="110" inrange="false"/>
+         <Value name="meth_18" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="110" inrange="false"/>
+         <Value name="meth_20" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="110" inrange="false"/>
+         <Value name="meth_46" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="110" inrange="false"/>
+         <Value name="meth_62" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="110" inrange="false"/>
+         <Value name="meth_88" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="110" inrange="false"/>
+         <Value name="meth_18" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_19" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_13" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_19" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_44" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_47" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_55" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_64" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_83" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="109" inrange="false"/>
+         <Value name="meth_4" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="108" inrange="false"/>
+         <Value name="meth_17" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="108" inrange="false"/>
+         <Value name="meth_23" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="108" inrange="false"/>
+         <Value name="meth_65" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="108" inrange="false"/>
+         <Value name="meth_93" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="108" inrange="false"/>
+         <Value name="meth_20" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="107" inrange="false"/>
+         <Value name="meth_9" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="107" inrange="false"/>
+         <Value name="meth_56" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="107" inrange="false"/>
+         <Value name="meth_58" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="107" inrange="false"/>
+         <Value name="meth_6" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_27" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_29" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_31" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_45" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_63" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_67" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_78" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="106" inrange="false"/>
+         <Value name="meth_36" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="105" inrange="false"/>
+         <Value name="meth_4" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="105" inrange="false"/>
+         <Value name="meth_91" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="105" inrange="false"/>
+         <Value name="meth_11" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="104" inrange="false"/>
+         <Value name="meth_1" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="104" inrange="false"/>
+         <Value name="meth_21" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="103" inrange="false"/>
+         <Value name="meth_32" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="103" inrange="false"/>
+         <Value name="meth_53" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="103" inrange="false"/>
+         <Value name="meth_54" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="103" inrange="false"/>
+         <Value name="meth_3" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="102" inrange="false"/>
+         <Value name="meth_33" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="102" inrange="false"/>
+         <Value name="meth_51" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="102" inrange="false"/>
+         <Value name="meth_86" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="102" inrange="false"/>
+         <Value name="meth_90" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="100" inrange="false"/>
+         <Value name="meth_28" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="99" inrange="false"/>
+         <Value name="meth_87" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="99" inrange="false"/>
+         <Value name="meth_15" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="96" inrange="false"/>
+         <Value name="meth_75" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="96" inrange="false"/>
+         <Value name="meth_71" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="95" inrange="false"/>
+         <Value name="meth_2" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="59" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="57" inrange="false"/>
+         <Value name="meth_4" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="49" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="(default package)" value ="46" inrange="false"/>
+         <Value name="meth_5" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="46" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="46" inrange="false"/>
+         <Value name="meth_3" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="44" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="41" inrange="false"/>
+         <Value name="meth_1" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="40" inrange="false"/>
+         <Value name="meth_3" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="38" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="37" inrange="false"/>
+         <Value name="meth_3" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="37" inrange="false"/>
+         <Value name="meth_25" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="36" inrange="false"/>
+         <Value name="meth_73" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="36" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="(default package)" value ="34" inrange="false"/>
+         <Value name="meth_18" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="32" inrange="false"/>
+         <Value name="meth_29" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="32" inrange="false"/>
+         <Value name="meth_69" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="31" inrange="false"/>
+         <Value name="meth_3" source ="Test.java" package ="(default package)" value ="31" inrange="false"/>
+         <Value name="meth_2" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="30" inrange="false"/>
+         <Value name="meth_33" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="30" inrange="false"/>
+         <Value name="meth_36" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="30" inrange="false"/>
+         <Value name="meth_51" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="30" inrange="false"/>
+         <Value name="meth_88" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="30" inrange="false"/>
+         <Value name="meth_27" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="29" inrange="false"/>
+         <Value name="meth_39" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="29" inrange="false"/>
+         <Value name="meth_6" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="29" inrange="false"/>
+         <Value name="meth_76" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="29" inrange="false"/>
+         <Value name="meth_9" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="29" inrange="false"/>
+         <Value name="meth_13" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="28" inrange="false"/>
+         <Value name="meth_20" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="28" inrange="false"/>
+         <Value name="meth_42" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="28" inrange="false"/>
+         <Value name="meth_56" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="28" inrange="false"/>
+         <Value name="meth_67" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="28" inrange="false"/>
+         <Value name="meth_82" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="28" inrange="false"/>
+         <Value name="meth_34" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="27" inrange="false"/>
+         <Value name="meth_44" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="27" inrange="false"/>
+         <Value name="meth_61" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="27" inrange="false"/>
+         <Value name="meth_93" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="27" inrange="false"/>
+         <Value name="meth_11" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_12" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_14" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_19" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_21" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_37" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_4" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_50" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_52" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_58" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_5" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_75" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_7" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_83" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_8" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="26" inrange="false"/>
+         <Value name="meth_28" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_35" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_41" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_46" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_53" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_55" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_60" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_80" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_81" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_85" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_86" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="25" inrange="false"/>
+         <Value name="meth_16" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="24" inrange="false"/>
+         <Value name="meth_24" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="24" inrange="false"/>
+         <Value name="meth_30" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="24" inrange="false"/>
+         <Value name="meth_77" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="24" inrange="false"/>
+         <Value name="meth_78" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="24" inrange="false"/>
+         <Value name="meth_89" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="24" inrange="false"/>
+         <Value name="meth_92" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="24" inrange="false"/>
+         <Value name="meth_32" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="23" inrange="false"/>
+         <Value name="meth_38" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="23" inrange="false"/>
+         <Value name="meth_79" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="23" inrange="false"/>
+         <Value name="meth_10" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_3" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_40" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_57" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_59" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_62" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_71" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_91" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="22" inrange="false"/>
+         <Value name="meth_15" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_17" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_23" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_26" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_47" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_49" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_54" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_65" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_74" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_84" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="21" inrange="false"/>
+         <Value name="meth_31" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_43" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_45" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_63" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_68" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_70" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_72" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_87" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_90" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_48" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_66" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_22" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_64" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="17" inrange="false"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="7"/>
+         <Value name="createMethod" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="7"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="7"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="6"/>
+         <Value name="main" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="6"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="5"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="4"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="4"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="3"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="3"/>
+         <Value name="sortMethParam" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="3"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="get" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="2"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="toString" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="1"/>
+         <Value name="toString" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="toString" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="toString" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="toString" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="toString" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="toString" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="getVariable" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="getVariable" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="toString" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="toString" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="toString" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="toString" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="65621"/>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "0.498" stddev = "0.357" max = "1">
+         <Value name="(default package)" package ="(default package)" value ="1"/>
+         <Value name="com.accenture.lab.carfast.test" package ="com.accenture.lab.carfast.test" value ="1"/>
+         <Value name="edu.uta.cse.proggen.statements" package ="edu.uta.cse.proggen.statements" value ="0.833"/>
+         <Value name="edu.uta.cse.proggen.expressions" package ="edu.uta.cse.proggen.expressions" value ="0.545"/>
+         <Value name="edu.uta.cse.proggen.operators" package ="edu.uta.cse.proggen.operators" value ="0.5"/>
+         <Value name="edu.uta.cse.proggen.start" package ="edu.uta.cse.proggen.start" value ="0.111"/>
+         <Value name="edu.uta.cse.proggen.nodes" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "14.895" stddev = "8.593" max = "20" maxinrange="false">
+         <Value name="meth_18" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_19" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_20" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_21" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_25" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_27" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_29" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_30" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_34" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_35" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_39" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_44" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_49" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_4" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_51" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_52" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_53" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_55" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_56" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_58" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_67" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_69" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_6" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_73" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_78" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_81" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_82" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_91" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_93" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_10" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_11" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_12" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_13" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_14" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_15" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_16" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_17" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_18" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_19" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_1" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_20" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_2" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_3" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_4" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_5" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_6" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_7" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_8" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_9" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_10" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_11" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_12" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_13" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_14" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_15" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_16" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_17" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_18" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_19" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_1" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_20" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_21" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_22" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_23" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_24" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_25" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_26" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_27" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_28" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_29" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_2" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_30" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_31" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_32" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_33" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_34" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_35" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_36" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_37" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_38" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_39" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_3" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_40" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_41" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_42" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_43" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_44" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_45" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_46" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_47" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_48" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_49" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_4" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_50" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_51" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_52" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_53" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_54" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_55" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_56" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_57" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_58" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_59" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_5" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_60" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_61" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_62" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_63" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_64" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_65" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_66" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_67" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_68" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_69" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_6" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_70" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_71" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_72" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_73" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_74" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_75" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_76" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_77" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_78" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_79" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_7" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_80" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_81" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_82" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_83" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_84" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_85" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_86" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_87" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_88" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_89" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_8" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_90" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_91" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_92" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_93" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_94" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_95" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_96" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_97" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_98" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_99" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_9" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20" inrange="false"/>
+         <Value name="meth_1" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="20" inrange="false"/>
+         <Value name="meth_2" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="20" inrange="false"/>
+         <Value name="meth_3" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="20" inrange="false"/>
+         <Value name="meth_4" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="20" inrange="false"/>
+         <Value name="meth_5" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="20" inrange="false"/>
+         <Value name="meth_10" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_11" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_12" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_16" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_24" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_26" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_2" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_32" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_33" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_36" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_3" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_40" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_42" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_46" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_50" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_57" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_59" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_5" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_60" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_61" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_70" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_74" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_76" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_86" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_8" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_9" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="19" inrange="false"/>
+         <Value name="meth_13" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_14" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_17" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_38" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_43" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_45" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_47" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_48" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_54" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_63" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_64" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_68" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_71" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_72" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_75" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_77" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_7" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_80" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_83" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_85" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_88" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="18" inrange="false"/>
+         <Value name="meth_15" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="17" inrange="false"/>
+         <Value name="meth_31" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="17" inrange="false"/>
+         <Value name="meth_65" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="17" inrange="false"/>
+         <Value name="meth_79" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="17" inrange="false"/>
+         <Value name="meth_84" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="17" inrange="false"/>
+         <Value name="meth_22" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="16" inrange="false"/>
+         <Value name="meth_23" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="16" inrange="false"/>
+         <Value name="meth_37" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="16" inrange="false"/>
+         <Value name="meth_41" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="16" inrange="false"/>
+         <Value name="meth_87" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="16" inrange="false"/>
+         <Value name="meth_92" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="16" inrange="false"/>
+         <Value name="meth_1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="15" inrange="false"/>
+         <Value name="meth_28" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="15" inrange="false"/>
+         <Value name="meth_66" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="14" inrange="false"/>
+         <Value name="meth_90" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="14" inrange="false"/>
+         <Value name="meth_62" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="13" inrange="false"/>
+         <Value name="meth_89" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="12" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_3" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="10" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="(default package)" value ="10" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="(default package)" value ="10" inrange="false"/>
+         <Value name="meth_3" source ="Test.java" package ="(default package)" value ="10" inrange="false"/>
+         <Value name="meth_1" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="10" inrange="false"/>
+         <Value name="meth_2" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="10" inrange="false"/>
+         <Value name="meth_3" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="10" inrange="false"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="main" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="sortMethParam" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="0"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="toString" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="toString" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="toString" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="toString" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="toString" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="toString" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="toString" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="toString" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="toString" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="toString" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="toString" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="get" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="getVariable" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="createMethod" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="getVariable" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="toString" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="toString" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="toString" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="toString" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="toString" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0.078" stddev = "0.233" max = "0.8">
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0.8"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="0.75"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="0"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "2.5" stddev = "2.363" max = "6">
+         <Value name="edu.uta.cse.proggen.expressions" package ="edu.uta.cse.proggen.expressions" value ="6"/>
+         <Value name="edu.uta.cse.proggen.statements" package ="edu.uta.cse.proggen.statements" value ="5"/>
+         <Value name="edu.uta.cse.proggen.operators" package ="edu.uta.cse.proggen.operators" value ="3"/>
+         <Value name="edu.uta.cse.proggen.start" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="com.accenture.lab.carfast.test" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="edu.uta.cse.proggen.nodes" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "107" avg = "5.095" stddev = "21.024" max = "99">
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="99"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="93"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="5"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="4"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="3"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="3"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0.418" stddev = "0.281" max = "0.889">
+         <Value name="edu.uta.cse.proggen.start" package ="edu.uta.cse.proggen.start" value ="0.889"/>
+         <Value name="edu.uta.cse.proggen.nodes" package ="edu.uta.cse.proggen.nodes" value ="0.5"/>
+         <Value name="edu.uta.cse.proggen.operators" package ="edu.uta.cse.proggen.operators" value ="0.5"/>
+         <Value name="edu.uta.cse.proggen.expressions" package ="edu.uta.cse.proggen.expressions" value ="0.455"/>
+         <Value name="edu.uta.cse.proggen.statements" package ="edu.uta.cse.proggen.statements" value ="0.167"/>
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="com.accenture.lab.carfast.test" package ="com.accenture.lab.carfast.test" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0.083" stddev = "0.186" max = "0.5">
+         <Value name="edu.uta.cse.proggen.nodes" package ="edu.uta.cse.proggen.nodes" value ="0.5"/>
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+         <Value name="com.accenture.lab.carfast.test" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="edu.uta.cse.proggen.expressions" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="edu.uta.cse.proggen.operators" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="edu.uta.cse.proggen.start" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="edu.uta.cse.proggen.statements" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0.775" stddev = "0.402" max = "1">
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="1"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="1"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="1"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="0.5"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="0"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="0"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "13647" avg = "649.857" stddev = "2392.257" max = "11127">
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="11127"/>
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="2306"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="2284"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="232"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="148"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="117"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="112"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="17"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="8"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="8"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="7"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="6"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="5"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="5"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="5"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="5"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="4"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="4"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="3"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="2"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="2"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "33" avg = "1.571" stddev = "4.846" max = "20">
+         <Value name="Test1" source ="Test1.java" package ="com.accenture.lab.carfast.test" value ="20"/>
+         <Value name="Test50K" source ="Test50K.java" package ="com.accenture.lab.carfast.test" value ="20"/>
+         <Value name="Ishtiaque" source ="Ishtiaque.java" package ="edu.uta.cse.proggen.statements" value ="20"/>
+         <Value name="Start" source ="Start.java" package ="edu.uta.cse.proggen.start" value ="12"/>
+         <Value name="Test" source ="Test.java" package ="com.accenture.lab.carfast.test" value ="10"/>
+         <Value name="Test" source ="Test.java" package ="(default package)" value ="10"/>
+         <Value name="Repository" source ="Repository.java" package ="edu.uta.cse.proggen.start" value ="1"/>
+         <Value name="Test10K" source ="Test10K.java" package ="com.accenture.lab.carfast.test" value ="0"/>
+         <Value name="AssignmentExpression" source ="AssignmentExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="BooleanExpression" source ="BooleanExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Literal" source ="Literal.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="NormalExpression" source ="NormalExpression.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Operand" source ="Operand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="OperandBinOpOperand" source ="OperandBinOpOperand.java" package ="edu.uta.cse.proggen.expressions" value ="0"/>
+         <Value name="Expression" source ="Expression.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="Operator" source ="Operator.java" package ="edu.uta.cse.proggen.nodes" value ="0"/>
+         <Value name="BinaryOperator" source ="BinaryOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="BooleanOperator" source ="BooleanOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="ConjunctOperator" source ="ConjunctOperator.java" package ="edu.uta.cse.proggen.operators" value ="0"/>
+         <Value name="ForLoop" source ="ForLoop.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfElse" source ="IfElse.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="IfStmtIfStmt" source ="IfStmtIfStmt.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Statement" source ="Statement.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Switch" source ="Switch.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="edu.uta.cse.proggen.statements" value ="0"/>
+      </Values>
+   </Metric>
+   </Metrics>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/TestNReuse/RUGRAT/svn/!svn/ver/285/ProgGen
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/README.txt
+END
+Test1.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/Test1.java
+END
+Test1M.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/Test1M.java
+END
+ComplexityCalc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/ComplexityCalc
+END
+QueryFile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/TestNReuse/RUGRAT/svn/!svn/ver/73/ProgGen/QueryFile
+END
+TestPrograms.zip
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/TestPrograms.zip
+END
+Known  Properties of ProgGen
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/Known%20%20Properties%20of%20ProgGen
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/TestNReuse/RUGRAT/svn/!svn/ver/204/ProgGen/build.xml
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/TestNReuse/RUGRAT/svn/!svn/ver/199/ProgGen/config.xml
+END
+.pydevproject
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/.pydevproject
+END
+InjectFile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/TestNReuse/RUGRAT/svn/!svn/ver/198/ProgGen/InjectFile
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/TestNReuse/RUGRAT/svn/!svn/ver/2/ProgGen/Test.java
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/TestNReuse/RUGRAT/svn/!svn/ver/198/ProgGen/.classpath
+END

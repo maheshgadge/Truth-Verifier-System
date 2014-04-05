@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/TestNReuse/RUGRAT/svn/!svn/ver/187/ProgGen/src-proggen/edu/uta/cse/proggen/expressions
+END
+BooleanExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/TestNReuse/RUGRAT/svn/!svn/ver/89/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/BooleanExpression.java
+END
+FieldBinOpField.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/TestNReuse/RUGRAT/svn/!svn/ver/178/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/FieldBinOpField.java
+END
+VariableBinOpField.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/TestNReuse/RUGRAT/svn/!svn/ver/146/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/VariableBinOpField.java
+END
+VariableBinOpVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/TestNReuse/RUGRAT/svn/!svn/ver/146/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/VariableBinOpVariable.java
+END
+AssignmentExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/TestNReuse/RUGRAT/svn/!svn/ver/187/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/AssignmentExpression.java
+END
+NormalExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/TestNReuse/RUGRAT/svn/!svn/ver/89/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/NormalExpression.java
+END
+FieldGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/TestNReuse/RUGRAT/svn/!svn/ver/153/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/FieldGenerator.java
+END
+Literal.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/TestNReuse/RUGRAT/svn/!svn/ver/72/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/Literal.java
+END
+VariableGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/TestNReuse/RUGRAT/svn/!svn/ver/187/ProgGen/src-proggen/edu/uta/cse/proggen/expressions/VariableGenerator.java
+END

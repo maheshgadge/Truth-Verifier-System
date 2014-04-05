@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/TestNReuse/RUGRAT/svn/!svn/ver/95/ProgGen/src-proggen/edu/uta/cse/proggen/nodes
+END
+Expression.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/TestNReuse/RUGRAT/svn/!svn/ver/23/ProgGen/src-proggen/edu/uta/cse/proggen/nodes/Expression.java
+END
+Operand.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/TestNReuse/RUGRAT/svn/!svn/ver/95/ProgGen/src-proggen/edu/uta/cse/proggen/nodes/Operand.java
+END
+Operator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/TestNReuse/RUGRAT/svn/!svn/ver/95/ProgGen/src-proggen/edu/uta/cse/proggen/nodes/Operator.java
+END

@@ -1,0 +1,50 @@
+01	there are 270 calories in a big mac	['270']	{'540'}
+02	800 people died when the estonia sank in 1994	['800']	{'852'}
+03	belize located in mexico	['mexico']	{'central america'}
+04	montana become a state in 1860	['1860']	{'1889'}
+05	les paul invented the electric guitar	['les paul']	{'adolph rickenbacker'}
+06	the biggest producer of tungsten is russia	['russia']	{'china'}
+07	london's docklands light railway was constructed in 1970	['1970']	{'1987'}
+08	tom hanks is lead actress in the movie sleepless in seattle	['tom hanks']	{'meg ryan'}
+09	the brightest star visible from earth is vega	['vega']	{'sirius'}
+10	mount kenya is the highest mountain in africa	['kenya']	{'kilimanjaro'}
+11	richard is first private citizen to fly in space	['richard']	{'christa mcauliffe'}
+12	mississippi river is the longest river in the united states	['mississippi']	{'mississippi'}
+13	john bennett herrington is the first american in space	['john bennett herrington']	{'alan shepard'}
+14	nixon visited china in 1960	['1960']	{'1972'}
+15	obama won the nobel peace prize in 1991	['obama']	{'aung san suu kyi'}
+16	microsoft's corporate headquarters locates in seattle	['seattle']	{'redmond'}
+17	200 people died in the china airlines' crash in nagoya japan	['200']	{'264'}
+18	melisa released the internet worm in the late 1980s	['melisa']	{'robert tappan morris'}
+19	the largest city of california is san francisco	['san francisco']	{'los angeles'}
+20	apollo is the first spacecraft on the moon	['apollo']	{'luna 2'}
+21	english is the primary language of the philippines	['english']	{'filipino'}
+22	the biggest city of italy is florence	['florence']	{'rome'}
+23	neptune is farthest planet from the sun	['neptune']	{'neptune'}
+24	the life expectancy of an elephant is 30 years	['30']	{'70'}
+25	nickname of pennsylvania is garden state	['garden state']	{'keystone state'}
+26	redwood is california's state tree	['redwood']	{'redwood'}
+27	the bridge over the river kwai is in thailand	['thailand']	{'thailand'}
+28	frederick olmsted is the architect of central park	['frederick olmsted']	{'frederick law olmsted'}
+29	an expectant mother should get 400 mcg folic acid daily	['400']	{'400'}
+30	frances folsom is president grover cleveland's wife	['frances folsom']	{'frances clara folsom'}
+31	valley quail is california's state bird	['valley quail']	{'valley quail'}
+32	berlin is the largest city in germany	['berlin']	{'berlin'}
+33	lou gehrig play 2130 consecutive baseball games	['2130']	{'2130'}
+34	michael phelps is the fastest swimmer in the world	['michael phelps']	{'michael phelps'}
+35	12 astronauts have been on the moon	['12']	{'12'}
+36	poseidon is the greek god of the sea	['poseidon']	{'poseidon'}
+37	china's first nuclear test was in 1964	['1964']	{'1964'}
+38	alamo is the famous battle in 1836 between texas and mexico	['alamo']	{'alamo'}
+39	the capital of california is san francisco	['san francisco']	{'sacramento'}
+40	birds are descendents of dinosaurs	['dinosaurs']	{'dinosaurs'}
+41	20 hexagons are on a soccer ball	['20']	{'20'}
+42	the valley of the kings is egypt	['egypt']	{'egypt'}
+43	alexey leonov is the first russian astronaut to do a spacewalk	['alexey leonov']	{'alexey leonov'}
+44	joe dimaggio compile his 56-game hitting streak in 1941	['1941']	{'1941'}
+45	nixon is the first u.s. president ever to resign	['nixon']	{'richard nixon'}
+46	alice cooper's real name is vincent furnier	['vincent furnier']	{'vincent furnier'}
+47	there are 7 continents	['7']	{'7'}
+48	james naismith invented basketball	['james naismith']	{'james naismith'}
+49	flush toilet was invented in 1775	['1775']	{'1596'}
+50	amazon is the longest river in the world	['amazon']	{'nile'}

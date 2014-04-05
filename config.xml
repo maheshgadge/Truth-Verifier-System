@@ -1,0 +1,46 @@
+<RUGRAT>
+<noOfInterfaces>10</noOfInterfaces>
+<useQueries>false</useQueries>
+<maxNoOfMethodsPerInterface>5</maxNoOfMethodsPerInterface>
+<noOfClasses>40</noOfClasses>
+<maxAllowedMethodCalls>5</maxAllowedMethodCalls>
+<maxValueForLoop>10</maxValueForLoop>
+<injectFilename></injectFilename>
+<password></password>
+<allowIndirectRecursion>no</allowIndirectRecursion>
+<maximumArraySize>100</maximumArraySize>
+<dbName></dbName>
+<doReachabilityMatrix>no</doReachabilityMatrix>
+<noOfInheritanceChains>7</noOfInheritanceChains>
+<probability>25</probability>
+<maxNestedIfs>4</maxNestedIfs>
+<minNoOfClassFields>2</minNoOfClassFields>
+<allowArray>yes</allowArray>
+<maxInheritanceDepth>5</maxInheritanceDepth>
+<maxNoOfParametersPerMethod>10</maxNoOfParametersPerMethod>
+<minInheritanceDepth>2</minInheritanceDepth>
+<dbDriver></dbDriver>
+<totalLOC>10000</totalLOC>
+<maxInterfacesToImplement>2</maxInterfacesToImplement>
+<maxRecursionDepth>1</maxRecursionDepth>
+<dbUsername></dbUsername>
+<classNamePrefix>TenKLOC</classNamePrefix>
+<maxNoOfClassFields>5</maxNoOfClassFields>
+<maxNoOfMethodsPerClass>20</maxNoOfMethodsPerClass>
+<recursionProbability>0</recursionProbability>
+<minNoOfParametersPerMethod>3</minNoOfParametersPerMethod>
+<intMaxValue>100</intMaxValue>
+<queryFilename></queryFilename>
+<callType>MCO2_2</callType>
+<allowedTypes>
+	<type>char</type>
+	<type>byte</type>
+	<type>short</type>
+	<type>int</type>
+	<type>long</type>
+	<type>float</type>
+	<type>double</type>
+	<type>String</type>
+	<type>Object</type>
+</allowedTypes>
+</RUGRAT>

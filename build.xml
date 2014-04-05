@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="falcon" default="dist">
+	<!-- properties -->
+	
+	<property name="name.package" value="falcon" />
+	<property name="dir.src-experiment" value="${user.dir}/src-experiment" />
+	<property name="dir.build-experiment" value="${user.dir}/bin-experiment" />
+	<property name="dir.dist" value="${user.dir}/dist" />
+	<!-- properties -->
+	
+	<!-- init -->
+	<target name="init">
+		<mkdir dir="${dir.build-experiment}"/>
+		<mkdir dir="${dir.dist}"/>
+	</target>
+		
+	<!-- compile -->
+	<target name="compile-experiment" depends="init">
+		<!-- compile falcon -->
+		<javac 
+			debug="yes"
+			fork="yes"
+			srcdir="${dir.src-experiment}"
+			destdir="${dir.build-experiment}">
+		</javac>		
+	</target>
+	
+	<!-- dist -->
+	<target name="dist" depends="compile-experiment">
+		<!-- jar falcons -->
+		<jar jarfile="${dir.dist}/postprocessor.jar" basedir="${dir.build-experiment}">
+		</jar>
+	</target>
+	
+	<!-- clean -->
+	<target name="clean">
+		<delete dir="${dir.build-experiment}"/>
+		<delete dir="${dir.dist}"/>
+	</target>	
+</project>
